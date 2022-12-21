@@ -2,8 +2,8 @@
 function About(){
     return (
     <div className="p-1">
-        <h3>About</h3>
-        <p className="text">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+        <h3>Sobre</h3>
+        <p className="text">Eu sou um devenvolvedor front-end apaixonado pela tecnologia,tento me manter atualizado com a segurança e as melhores práticas, e estou sempre procurando coisas novas para aprender. minhas principais stacks sao HTML, CSS, Js, React, Sass</p>
     </div>
     )
 }

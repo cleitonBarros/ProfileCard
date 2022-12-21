@@ -8,10 +8,10 @@ function Footer(){
     return (
         <footer>
             <ul>
-                <li> <a href=""> <img src={twitterIcon}/> </a> </li>
-                <li> <a href=""> <img src={faceIcon}/> </a> </li>
-                <li> <a href=""> <img src={instaIcon}/> </a> </li>
-                <li> <a href=""> <img src={githubIcon}/> </a> </li>
+                <li> <a target="_blank" href="#"> <img src={twitterIcon}/> </a> </li>
+                <li> <a target="_blank" href="#"> <img src={faceIcon}/> </a> </li>
+                <li> <a target="_blank" href="#"> <img src={instaIcon}/> </a> </li>
+                <li> <a target="_blank" href="https://github.com/cleitonBarros"> <img src={githubIcon}/> </a> </li>
             </ul>
         </footer>
     )

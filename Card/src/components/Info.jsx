@@ -2,25 +2,31 @@
 import profileImg from '../assets/foto.png'
 import linkedinIcon from '../assets/linkedin.svg'
 import mailIcon from '../assets/Mail.svg'
+import Mail from '../data/main'
 
 
 
-function Information(){
+function Information(props){
+    const btnMail = Mail.map(item =>{
+        return(
+            <a  className="btn btnEmail" target="_blank" href={item.scriptMail}><img src={mailIcon} alt="mail icon" /> Email</a>
+        )
+    })
     return (
-        <header> 
+        <header > 
             <img className ="imgProfile"src={profileImg} alt="profile img" />
             {/* <div className="boximg">
                 
             </div> */}
-            
+          
             <div className="basicInfo p-1">
                 <p className="nameParagraph">Cleiton Barros</p>
-                <p className="roleParagraph">Frontend Developer</p>
+                <p className="roleParagraph">Desenvolvedor Front-end</p>
                 <span className="ioParagraph">cleitonBarros.io</span>
             </div>
             <div className="buttonBox p-1" >
-                <a className="btn btnEmail "><img src={mailIcon} alt="mail icon" /> Email</a>
-                <a className="btn btnLinkedin "><img src={linkedinIcon} alt="linkedin icon" /> Linkedin</a>
+                {btnMail}
+                <a target="_blank" href="https://www.linkedin.com/in/cleiton-de-barros-moura-3ba1a7190/"e className="btn btnLinkedin "><img src={linkedinIcon} alt="linkedin icon" /> Linkedin</a>
             </div>
         </header>
     )
