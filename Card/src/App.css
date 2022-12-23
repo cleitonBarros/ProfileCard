@@ -125,7 +125,7 @@ h3{
 
 }
 p.text{
-  text-align: justify;
+  text-align: left;
   color: #dcdcdc;
   font-size: 12px;
   font-weight: 400;
@@ -217,4 +217,21 @@ footer ul li a:hover {
 .switch {
   top: -315px;
   left: -315px;
+}
+.languageSwitcher{
+  display:flex;
+  align-items:center;
+}
+
+.languageSwitcher > button{
+  cursor:pointer;
+  background: none;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.languageSwitcher > button >span{
+  color: white;
+
+  font-size: 12px;
 }

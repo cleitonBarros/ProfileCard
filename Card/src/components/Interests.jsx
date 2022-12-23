@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next"
 function Interests(){
-    return (
+    const {t} = useTranslation();
+
+    return (   
     <div className="p-1">
-        <h3 >Interesses</h3>
-        <p className="text">Amante de idiomas, cultura da ásia oriental, geek, gamer.</p>
+        <h3 >{t('interests')}</h3>
+        <p className="text">{t('textInterests')}</p>
     </div>
     )
 }

@@ -1,9 +1,14 @@
 
+import { useTranslation } from "react-i18next"
+import { Langswitcher } from "./Langswitcher"
+
 function About(){
+    const {t} = useTranslation();
     return (
     <div className="p-1">
-        <h3>Sobre</h3>
-        <p className="text">Eu sou um devenvolvedor front-end apaixonado pela tecnologia,tento me manter atualizado com a segurança e as melhores práticas, e estou sempre procurando coisas novas para aprender. minhas principais stacks sao HTML, CSS, Js, React, Sass</p>
+        <h3>{t('about')}</h3>
+        <p className="text">{t('textAbout')}</p>
+       
     </div>
     )
 }
