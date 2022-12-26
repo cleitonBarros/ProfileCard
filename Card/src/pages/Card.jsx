@@ -5,7 +5,7 @@ import Interests from '../components/Interests'
 import { createContext, useState } from 'react'
 import Toggle from '../components/Toggle'
 import { useTranslation } from "react-i18next"
-import { Langswitcher } from "../components/Langswitcher"
+import  Langswitcher from "../components/Langswitcher"
 import Switch from "react-switch";
 
 //export  const ThemeContext = createContext(null)
@@ -19,7 +19,6 @@ function Card(){
     return(
 
         <>
-        
             <div  className="container">
                 <Information   />
                 <main>
@@ -29,7 +28,6 @@ function Card(){
                 <Footer />   
             </div>
                 <Langswitcher />
-          
         </>
 
            

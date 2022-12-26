@@ -2,7 +2,9 @@ import br from '../assets/br.svg'
 import fr from '../assets/fr.svg'
 import us from '../assets/us.svg'
 
-export default[
+
+
+export const  languageOptions =[
     {
         name: "Portugues",
         value:'pt',

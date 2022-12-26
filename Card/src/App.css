@@ -220,18 +220,24 @@ footer ul li a:hover {
 }
 .languageSwitcher{
   display:flex;
+  flex-direction: column;
   align-items:center;
+  gap: 1rem;
+
+  margin-left: 20px;
+  
+  position: relative;
+  top: -250px;
 }
 
 .languageSwitcher > button{
   cursor:pointer;
   background: none;
+ 
   border: none;
-  height: 70px;
-  width: 70px;
+  height: 30px;
+  width: 30px;
 }
-.languageSwitcher > button >span{
-  color: white;
-
-  font-size: 12px;
+.languageSwitcher > button img {
+  border-radius: 50px;
 }
