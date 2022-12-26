@@ -239,5 +239,9 @@ footer ul li a:hover {
   width: 30px;
 }
 .languageSwitcher > button img {
+  transition: transform  0.3s ease-in-out;
   border-radius: 50px;
+}
+.languageSwitcher > button img:hover {
+  transform: scale(1.2)
 }
