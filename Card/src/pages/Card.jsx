@@ -2,12 +2,11 @@ import Footer from '../components/Footer'
 import Information from '../components/Info'
 import About from '../components/About'
 import Interests from '../components/Interests'
-import { createContext, useState } from 'react'
-import Toggle from '../components/Toggle'
-import { useTranslation } from "react-i18next"
 import  Langswitcher from "../components/Langswitcher"
-import Switch from "react-switch";
 
+//import { createContext, useState } from 'react'
+//import Toggle from '../components/Toggle'
+//import Switch from "react-switch";
 //export  const ThemeContext = createContext(null)
 
 function Card(){
