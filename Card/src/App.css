@@ -262,9 +262,7 @@ footer ul li a:hover {
 }
 @media(min-width:751px){
 
-  body,#root{
-    overflow: hidden;
-  }
+  
  
 }
 
