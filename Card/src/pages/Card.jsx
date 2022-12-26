@@ -5,7 +5,6 @@ import Interests from '../components/Interests'
 import  Langswitcher from "../components/Langswitcher"
 
 //import { createContext, useState } from 'react'
-//import Toggle from '../components/Toggle'
 //import Switch from "react-switch";
 //export  const ThemeContext = createContext(null)
 
