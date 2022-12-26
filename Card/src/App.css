@@ -245,3 +245,41 @@ footer ul li a:hover {
 .languageSwitcher > button img:hover {
   transform: scale(1.2)
 }
+@media(max-width:510px){
+
+  body,#root{
+    flex-direction: column-reverse;
+    overflow: visible;
+  }
+  .languageSwitcher{
+    flex-direction: row;
+    position: initial;
+
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+}
+@media(min-width:751px){
+
+  body,#root{
+    overflow: hidden;
+  }
+ 
+}
+
+@media(max-width:750px){
+
+  body,#root{
+    flex-direction: column-reverse;
+    
+  }
+  .languageSwitcher{
+    flex-direction: row;
+    position: initial;
+
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+}
