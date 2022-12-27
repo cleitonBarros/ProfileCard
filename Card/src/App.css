@@ -245,6 +245,10 @@ footer ul li a:hover {
 .languageSwitcher > button img:hover {
   transform: scale(1.2)
 }
+.languageSwitcher > button img.active {
+  transform: scale(1.2);
+  border: 2px solid #fff;
+}
 @media(max-width:510px){
 
   body,#root{

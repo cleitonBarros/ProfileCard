@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next"
 import { languageOptions } from "../data/languagesOptions"
+import { NavLink } from 'react-router-dom'
 
 
 export default function Langswitcher(){
@@ -13,6 +14,7 @@ export default function Langswitcher(){
                     <button 
                         key={language.value} 
                         onClick={()=>{i18n.changeLanguage(language.value)}}>
+                          
                         <img src={language.flag} alt={language.name}/>
                     </button>
                 )
