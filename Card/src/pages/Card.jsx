@@ -4,7 +4,7 @@ import About from '../components/About'
 import Interests from '../components/Interests'
 import  Langswitcher from "../components/Langswitcher"
 
-import Toggle from  '../components/Toggle'
+import Toggle from  '../components/ToggleBtn'
 
 import { useState } from 'react'
 //import Switch from "react-switch";
