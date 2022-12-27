@@ -195,6 +195,7 @@ footer ul li a:hover {
   width: 50px;
 
   transform: scale(1.5);
+  transition: background .5s ease-in;
 
 }
 .label .circle{
@@ -208,7 +209,8 @@ footer ul li a:hover {
   width: 22px;
 
   transform: translateX(0px);
-  transition:  transform 0.2s linear;
+  transition: background 0.5s linear;
+  transition:  0.2s linear;
 }
 #light .box .label .circle{
   background:#1A1B21;
@@ -290,7 +292,7 @@ footer ul li a:hover {
     position: initial;
 
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
 }
