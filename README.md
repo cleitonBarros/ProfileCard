@@ -1,16 +1,16 @@
 # Profile Card 
 
-## 🚀 Dark Mode
+## 🌑 Dark Mode
 <h1 align="center">
   <img  src="./Card/public/webdark.png" width="1000px" height="500px" />
 </h1>
 
-## 🚀 Light Mode
+## ☀️ Light Mode
 <h1 align="center">
   <img  src="./Card/public/weblight.png" width="1000px" height="500px"/>
 </h1>
 
-## 🚀 Mobile
+## 📱 Mobile
 <h1 align="center">
   <img  src="./Card/public/mobile.png" width="400px" height="600px"/>
 </h1>
