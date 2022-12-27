@@ -4,15 +4,15 @@ import linkedinIcon from '../assets/linkedin.svg'
 import mailIcon from '../assets/Mail.svg'
 import Mail from '../data/main'
 
+
 import { useTranslation } from "react-i18next"
-
-
 
 function Information(){
     const {t, i18n} = useTranslation ()
-   
+
     return (
         <header  > 
+           
             <img className ="imgProfile"src={profileImg} alt="profile img" />
             <div className="basicInfo p-1">
                 <p className="nameParagraph">Cleiton Barros</p>

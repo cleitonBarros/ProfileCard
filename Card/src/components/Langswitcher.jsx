@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next"
 import { languageOptions } from "../data/languagesOptions"
-import { NavLink } from 'react-router-dom'
 
 
 export default function Langswitcher(){

@@ -167,13 +167,18 @@ footer ul li a:hover {
   background: #D5D4D8;
 }
 .box{
-  top: -310px;
-  left: -305px;
+  top: -5px;
+  left: -116px;
   position: relative;
+}
+#light .box .label{
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+
+  background:#ececec;
 }
 .checkbox{
   opacity: 0;
-  position: absolute;
+ 
 }
 .label{
   background: #23252C;
@@ -204,6 +209,9 @@ footer ul li a:hover {
 
   transform: translateX(0px);
   transition:  transform 0.2s linear;
+}
+#light .box .label .circle{
+  background:#1A1B21;
 }
 .checkbox:checked + .label .circle{
   transform: translateX(24px);
@@ -274,6 +282,7 @@ footer ul li a:hover {
 
   body,#root{
     flex-direction: column-reverse;
+    
     
   }
   .languageSwitcher{
