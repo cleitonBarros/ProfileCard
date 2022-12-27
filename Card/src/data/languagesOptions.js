@@ -1,12 +1,12 @@
 import br from '../assets/br.svg'
 import fr from '../assets/fr.svg'
 import us from '../assets/us.svg'
-
+import mx from '../assets/mx.png'
 
 
 export const  languageOptions =[
     {
-        name: "Portugues",
+        name: "Portuguese",
         value:'pt',
         flag: br
     },
@@ -19,5 +19,10 @@ export const  languageOptions =[
         name: "Français",
         value:'fr',
         flag: fr
+    },
+    {
+        name: "Spanish",
+        value:'es',
+        flag: mx
     }
 ]

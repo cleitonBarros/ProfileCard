@@ -3,9 +3,10 @@ import { initReactI18next } from "react-i18next"
 import enJson from '../../locale/en.json'
 import frJson from '../../locale/fr.json'
 import ptJson from '../../locale/pt.json'
+import esJson from '../../locale/es.json'
 
 let languagePattern = navigator.language
-console.log(languagePattern)
+
 
 const isValid = () => languagePattern === 'pt-BR'  ?  'pt' : 'en'
 
@@ -14,6 +15,7 @@ i18n.use(initReactI18next).init({
         pt:ptJson,
         en:enJson,
         fr:frJson,
+        es:esJson,
     },
 
 

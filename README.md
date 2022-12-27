@@ -2,12 +2,17 @@
 
 ## 🚀 Dark Mode
 <h1 align="center">
-  <img  src="./DesafioLacrei/README.img/logo.png" width="200px" />
+  <img  src="./Card/public/webdark.png" width="500px" height="500px" />
 </h1>
 
 ## 🚀 Light Mode
 <h1 align="center">
-  <img  src="./DesafioLacrei/README.img/Home.png" width="1000px" height="500px"/>
+  <img  src="./Card/public/weblight.png" width="500px" height="500px"/>
+</h1>
+
+## 🚀 Mobile
+<h1 align="center">
+  <img  src="./Card/public/mobile.png" width="500px" height="500px"/>
 </h1>
 
 ## 🚀 Tecnologias
@@ -25,6 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
   - Projedo desenvovido em react, proposto como primeiro challange do curso de react na [Scrimbra](https://scrimba.com/learn/learnreact).
   - Um card disponibilizando informações basicas sobre mim.
+  - Dark e Light mode usando useState
+  - Multi idiomas (português, inglês, espanhol. Francês)
     
 ## 🔖 Layout
 Você pode visualizar o projeto  através [desse link](https://profile-card-tau-sooty.vercel.app/).
