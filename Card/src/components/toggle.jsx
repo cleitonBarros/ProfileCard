@@ -1,7 +1,4 @@
-
-
-function Toggle(props){
-  
+export default function Toggle(props){
     return(
      <div class="box">
         <input type="checkbox" name="toggle" class="checkbox" id="toggle" onClick={props.value} />
@@ -13,4 +10,3 @@ function Toggle(props){
       </div>
     )
 }
-export default Toggle
